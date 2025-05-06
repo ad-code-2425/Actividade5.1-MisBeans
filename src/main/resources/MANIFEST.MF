@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Built-By: maria
+Build-Jdk: 17.0.4.1
+Created-By: Maven Integration for Eclipse
+Name: es/demo/beans/BeanFuente.class
+Java-Bean: True
+
+Name: es/demo/beans/BeanReceptor.class
+Java-Bean: True
+
+Name: es/demo/beans/VetoableBeanReceptor.class
+Java-Bean: True
+
+Name: es/demo/beans/VetoableBeanFuente.class
+Java-Bean: True
+
