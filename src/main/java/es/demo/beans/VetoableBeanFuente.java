@@ -38,7 +38,7 @@ public class VetoableBeanFuente implements Serializable {
 			this.vcs.fireVetoableChange("value", oldValue, newValue);
 			this.value = newValue;
 		} catch (PropertyVetoException pve) {
-			pve.getStackTrace();
+			System.out.println("Cambio vetado: " + pve.getMessage());
 		}
 	}
 
